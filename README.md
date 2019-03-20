@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Testing React SSR
 
-## Available Scripts
+### what to do
 
-In the project directory, you can run:
+-   서버사이드 랜더링을 테스트 합니다.
+-   HOC 컴포넌트를 테스트 합니다.
+-   Redux, Router를 테스트 합니다.
+-   코드 스플릿팅을 테스트 합니다.
+-   웹팩 환경 설정을 CRA 없이 재구현 해봅니다.
+---
+#### 왜? 서버사이드를 써야하는가?
+> What is React Server Side Rendering and should I use it? \
+https://dev.to/mladenstojanovic/what-is-react-server-side-rendering-and-should-i-use-it-5b7i
+---
+#### 서버사이드 렌더링 참고
+> react-router :: 3장. 서버사이드 렌더링 : 벨로퍼트님 블로그 출처 \
+https://velopert.com/3425
+---
+#### 코드 스플릿팅 참고
+> 리액트 프로젝트 코드 스플리팅 정복하기 : 벨로퍼트님 블로그 출처 \
+https://velog.io/@velopert/react-code-splitting
+---
+#### HOC 참고
+> 리엑트 공식 Docs \
+https://reactjs.org/docs/higher-order-components.html \
 
-### `npm start`
+> 리액트(React) 이해 4 - Higher Order Component(HOC)로 컴포넌트 재사용 하기 \
+https://www.vobour.com/%EB%A6%AC%EC%95%A1%ED%8A%B8-react-%EC%9D%B4%ED%95%B4-4-higher-order-component
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> 상세한 리액트 Higher Order Components 설명(React Higher Order Components in depth) \
+https://www.vobour.com/%EC%83%81%EC%84%B8%ED%95%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-higher-order-components-%EC%84%A4%EB%AA%85-react
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+> 리액트 HOC 집중 탐구 (1) \
+https://meetup.toast.com/posts/137 \
+리액트 HOC 집중 탐구 (2) \
+https://meetup.toast.com/posts/144
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+> 컴포넌트에 날개를 달아줘, 리액트 Higher-order Component (HoC)  : 벨로퍼트님 블로그 출처 \
+https://velopert.com/3537
