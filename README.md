@@ -1,4 +1,4 @@
-# Testing React SSR
+# Testing React SSR : with CRA
 
 ### what to do
 

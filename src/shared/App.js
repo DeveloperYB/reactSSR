@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Home, About, Posts, NotFound } from 'pages';
-
+import { hot } from 'react-hot-loader';
 import Menu from 'components/Menu';
 
 class App extends Component {
@@ -23,4 +23,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default hot(module)(App);
