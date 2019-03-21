@@ -6,7 +6,7 @@
 -   HOC 컴포넌트를 테스트 합니다.
 -   Redux, Router를 테스트 합니다.
 -   코드 스플릿팅을 테스트 합니다.
--   웹팩 환경 설정을 CRA 없이 재구현 해봅니다.
+
 ---
 #### 왜? 서버사이드를 써야하는가?
 > What is React Server Side Rendering and should I use it? \
